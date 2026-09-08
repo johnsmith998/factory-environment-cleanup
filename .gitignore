@@ -1,0 +1,8 @@
+.env.local
+.DS_Store
+
+# Keep empty folders; do not commit photos
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
