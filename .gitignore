@@ -1,8 +1,15 @@
 .env.local
 .DS_Store
 
-# Keep empty folders; do not commit photos
+# Keep folders empty except committed examples
 input/*
 !input/.gitkeep
+!input/20260901发货i/
+input/20260901发货i/*
+!input/20260901发货i/example-in.jpg
+
 output/*
 !output/.gitkeep
+!output/20260901发货/
+output/20260901发货/*
+!output/20260901发货/example-out.jpg
